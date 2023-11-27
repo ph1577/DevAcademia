@@ -2,10 +2,9 @@ const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
 const btnPopup = document.querySelector('.btnLogin-popup');
-const iconClose = document.querySelector('.icon-close');
-const sidebar = document.querySelector('.sidebar');
+const iconClose = document.querySelector('.close-icon');  
+const sidebar = document.querySelector('.sidebar'); 
 const barsIcon = document.querySelector('.fa-bars');
-
 
 registerLink.addEventListener('click', () => {
     wrapper.classList.add('active');
