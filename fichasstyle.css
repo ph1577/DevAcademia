@@ -379,6 +379,7 @@ header {
 .btn-trainer{
     display: flex;
     justify-content: center;
+    margin-right: 50px;
 }
 
 .btn-trainer button {
