@@ -12,8 +12,24 @@ body{
     justify-content: center;
     align-items: center;
     min-width: 100vh;
-    background: url(/Imagens/imageprincipal.jpg) no-repeat;
     background-size: cover;
+}
+
+/* IMAGEM */
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* MENU */
